@@ -1,0 +1,28 @@
+h1{
+    color: rgba(255,20,147,0.5);
+}
+h2{
+    color: blue;
+    font-weight: 900;
+}
+p{
+    color: #ffa50050;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+    text-align: justify;/* left right center justify*/
+    text-decoration: none;/* underline line-through overline none*/
+    text-transform: capitalize;/* uppercase lowercase capitalize*/
+    font-style: italic;
+    background-color: #000000;
+    width: 1000px;
+}
+body{
+    background-color: #ffa500;
+    background-image: url("../images/nền.jpg");
+    background-size: cover;
+}
+p{
+    color: deeppink;
+}
