@@ -1,0 +1,67 @@
+h1{
+    font-size: 150px;
+    color: rgba(148, 153, 255, 0.58);
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+div{
+    width: calc(25% - 60px);
+    /*height: 400px;*/
+    float: left;/* left right none*/
+    border: 10px solid rgba(255, 0, 234, 0.2);/* dotted solid dashed*/
+    /*
+    border-top: 1px solid green;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
+    border-bottom: 1px solid green;
+     */
+    margin: 10px 20px 30px 40px;
+    /*
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+     */
+    padding: 15px 10px 15px 20px;
+    /*
+    padding-top:
+    padding-right:
+    padding-bottom:
+    padding-left:
+     */
+    box-sizing: border-box;/*content-box */
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px black;
+    transition: 300ms all;
+}
+#box-s{
+    background-color: rgba(255, 165, 0, 0.45);
+}
+#box-x{
+    background-color: rgba(0, 255, 225, 0.41);
+}
+
+div:hover{
+    /*transform: translate(50px,60px);
+    transform: rotate(45deg);*/
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.29);
+}
+.box-all{
+    background-color: rgba(0, 255, 255, 0.53);
+}
+.pbt{
+    border-radius: 200px;
+}
+img{
+    max-width: 100%;
+}
+
+
+html body .box-bb #aa u{
+    color: rgb(253, 0, 61);
+}
+body .box-bb #aa u{
+    color: rgba(0, 0, 255, 0.41);
+}
+

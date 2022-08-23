@@ -1,0 +1,17 @@
+body{
+    width: 700px;
+}
+img{
+    width: 500px;
+    max-width: 100%;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+p{
+    float: left;
+}
+#aa{
+    float: left;
+    border: 10px solid rgba(255, 0, 234, 0.2);
+
+}
