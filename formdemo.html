@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM DEMO</title>
+    <link rel="stylesheet" href="css/form.css"/>
+</head>
+<body>
+<form method="get" action="#">
+    <label> Your full name:</label>
+    <input type="text" name="fullname" placeholder="Full name..." required/>
+    <br/>
+    <label> Your email:</label>
+    <input type="email" name="your_email" placeholder="Email..."/ required>
+    <br/>
+    <label> Your telephone number:</label>
+    <input type="tel" name="phone" placeholder="Telephone number.."/ required>
+    <br/>
+    <label> Your password:</label>
+    <input type="password" name="pwd" placeholder="Password..."/ required>
+    <br/>
+    <label> Your age:</label>
+    <input type="number" min="1" max="100" name="age" placeholder="Age..."/>
+    <br/>
+    <label> Your birthday:</label>
+    <input type="date" name="birthday" placeholder="Birthday..."/>
+    <br/>
+    <label> Time:</label>
+    <input type="time" name="mytime" placeholder="Time..."/>
+    <br/>
+    <label> Color:</label>
+    <input type="color" name="mycolor" placeholder="Color..."/>
+    <br/>
+    <label> Your gender:</label>
+    <label><input type="radio" name="gender" value="male"/>Nam</label>
+    <label><input type="radio" name="gender" value="female"/>Nữ</label>
+    <input type="radio" name="gender" value="other"/>Khác
+    <br/>
+    <label><input type="checkbox" name="confirm" value="yes"/>Tôi đồng ý với điều khoản sử dụng</label>
+    <br/>
+    <label>Tiểu sử bản thân:</label>
+    <textarea name="decription" rows="10" cols="100%"></textarea>
+    <br/>
+    <label>Tỉnh/Thành phố:</label>
+    <select name="city" >
+        <optgroup label="Miền bắc">
+            <option value="hanoi">Hà Nội</option>
+            <option value="saigon">TP Hồ Chí Minh</option>
+        </optgroup>
+        <optgroup label="Miền Nam">
+            <option value="haiphong">Hải Phòng</option>
+            <option value="cantho">Cần Thơ</option>
+        </optgroup>
+    </select>
+    <br/>
+    <button type="button">Button</button>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
