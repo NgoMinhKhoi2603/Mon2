@@ -15,7 +15,7 @@ var songto = 3;
 function insongto() {
     if(kiemtrasongto(songto)==true){
         var kq = document.getElementById("ngto");
-        kq.innerText = songto;
+        kq.innerText += " " + songto;
     }
     songto++;
     if(kiemtrasongto(songto)==false){
