@@ -5,7 +5,8 @@ function update() {
         var list = data.data;
         for(var i=0;i<list.length;i++){
             var name = list[i].name;
-            var str = "<li>"+name+"</li>";
+            var image = list[i].icon;
+            var str = `<li><img width="50" src="${image}"/> ${name} </li>`;
             var x = document.getElementById("menu");
             x.innerHTML += str;
         }
