@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Demo JS 4</title>
+    <link rel="stylesheet" href="css/demojs4popup.css">
 </head>
 <body>
+<div class="bg-fade" id="bg-fade"></div>
+
+<form method="get" action="https://api.openweathermap.org/data/2.5/weather">
+    <input type="text" name="q" placeholder="City..."/>
+    <input type="text" name="appid" placeholder="City..."/>
+    <input type="text" name="unit" placeholder="City..."/>
+    <button type="submit">Send</button>
+</form>
+
 <h1>City: <span id="city">TP</span></h1>
 <h2>Temp: <span id="temp">0</span><sup>o</sup>C</h2>
 <h2>Pressure: <span id="press">0</span></h2>
