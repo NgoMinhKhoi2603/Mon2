@@ -4,8 +4,8 @@ function update() {
         var data = JSON.parse(this.responseText);
         var weather = data.list;
         for(var i=0;i<weather.length;i++){
-            var time = weather[i].weather[0].description;
-            var temp = weather[i].weather[0].description;
+            var time = weather[i].dt_txt;
+            var temp = weather[i].main.temp;
             var type = weather[i].weather[0].description;
             var icon = weather[i].weather[0].icon;
             var str = time +"<br/>"+ `<div style='float: left;'><span style='font-size: 30px;'>${temp}</span><span style='font-size: 30px;'><sup>o</sup>C</span><br/><span style='float: left;'>${type}</span></div>`;
