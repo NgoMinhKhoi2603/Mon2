@@ -3,7 +3,7 @@ function update() {
     xhttp.onload = function () {
         var data = JSON.parse(this.responseText);
         var weather = data.list;
-        for(var i=0;i<weather.length;i++){
+        for(var i=0;i<16;i++){
             var time = weather[i].dt_txt;
             var temp = weather[i].main.temp;
             var type = weather[i].weather[0].description;
