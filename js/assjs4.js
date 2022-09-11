@@ -14,7 +14,7 @@ function update() {
             document.getElementById("box"+i).innerHTML += `<img style="margin-left: 10px;" width="100px" src="https://openweathermap.org/img/wn/${icon}@2x.png"/>`
         }
     }
-    var link = "http://api.openweathermap.org/data/2.5/forecast?q=Hanoi,vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    var link = "https://api.openweathermap.org/data/2.5/forecast?q=Hanoi,vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
     xhttp.open("get", link, true);
     xhttp.send();
 }
