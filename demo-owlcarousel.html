@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo owl carousel</title>
+  <link rel="stylesheet" href="css/layout.css"/>
+  <link rel="stylesheet" href="library/owlcarousel2-2.3.4/dist/assets/owl.carousel.css">
+  <link rel="stylesheet" href="library/owlcarousel2-2.3.4/dist/assets/owl.theme.default.css"/>
+  <link rel="stylesheet" href="library/owlcarousel2-2.3.4/dist/assets/owl.theme.green.css"/>
+</head>
+<body>
+<section class="section banner">
+  <div ="container">
+    <div class="owl-carousel owl-theme">
+      <div class="item"><h4><img src="images/anh1.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh2.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh3.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh4.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh5.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh6.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh7.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh8.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh9.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh10.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh11.jpg"></h4></div>
+      <div class="item"><h4><img src="images/anh1.jpg"></h4></div>
+    </div>
+  </div>
+</section>
+<script type="text/javascript" src="library/jquery/jquery.3.6.1.js"></script>
+<script type="text/javascript" src="library/owlcarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script type="text/javascript">
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:5
+      }
+    }
+  })
+</script>
+</body>
+</html>
