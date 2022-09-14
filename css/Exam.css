@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 400px;
+    height: 650px;
+    margin-left: 400px;
+}
+img{
+    width: 35px;
+}
+.footer{
+    color: white;
+    height: 130px;
+    background-color: #480b48;
+}
+.container{
+    width: 600px;
+    border: 1px solid #22643d;
+    margin-top: 0px;
+}
+.footer{
+    font-size: 50px;
+}
+button[type=submit]{
+    background-color: #480b48;
+    color: white;
+    width: 300px;
+}
+span{
+    color: #480b48;
+    font-weight: 700;
+}
